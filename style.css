@@ -1,0 +1,91 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background: white;
+  margin: 0;
+}
+
+li{
+  
+}
+
+
+/* Styling the hero image */
+.hero-img{
+  background-image: url(keyboard-hero-image.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/* Styling the heading and paragraph fonts */
+.merienda-<uniquifier> {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1, h2{
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* Main content styling */
+p {
+  color: black;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.main{
+  float: right;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.img-icon{
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-icon img{
+  align-items: center;
+}
+
+.citations p {
+  font-style: italic;
+  color: dimgray;
+  font-size: 15px;
+}
+
+
